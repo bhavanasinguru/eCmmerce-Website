@@ -1,0 +1,46 @@
+
+  
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+#content
+{
+  min-height: 700px;
+}
+#banner_image
+{
+
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color:#f8f8f8;
+    text-align: center;
+    background-image:url("back.jpg");
+    backface-visibility: visible;
+    background-size: cover;
+  
+    min-height: 700px;
+}
+#banner_content
+{
+    position: relative;   
+      padding-top: 20%; 
+          padding-bottom: 6%;   
+            margin-top: 12%;  
+              margin-bottom: 12%;
+         border-radius: 25px; 
+         background-color: rgba(0, 0, 0, 0.7);    
+           max-width: 660px; 
+}
+/* footer
+{
+  position: fixed;
+  background: black;
+  color:white;
+  bottom:0;
+  padding:10px 0;
+  width: 100%;
+
+
+} */
